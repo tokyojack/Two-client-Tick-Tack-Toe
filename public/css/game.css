@@ -1,0 +1,72 @@
+.turn {
+	margin-top: 12.5px !important;
+	font-size: 2.5em;
+	color: white;
+	
+	    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+	
+	text-shadow: 0px 2px 1.5px rgba(0, 0, 0, 0.4),
+	0px 4px 6.5px rgba(0, 0, 0, 0.1),
+	0px 9px 12.5px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+	margin-top: 12.5px !important;
+}
+
+.hidden--button {
+	visibility: hidden;
+}
+
+.vertical {
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.horizontal {
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+td {
+	/*cursor: pointer;*/
+	width: 55px;
+	height: 55px;
+}
+
+table {
+	margin: auto;
+
+	-webkit-box-shadow: 0px 0px 100.5px rgba(0, 0, 0, 0.55);
+	/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow: 0px 0px 100.5px rgba(0, 0, 0, 0.55);
+	/* Firefox 3.5 - 3.6 */
+	box-shadow: 0px 0px 100.5px rgba(0, 0, 0, 0.55);
+	/* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.hidden {
+    visibility: hidden !important;
+}
+
+body {
+	background: #1a2a6c;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-user-select: none;
+	/* Safari, iOS, and Android */
+	-moz-user-select: none;
+	/* Firefox */
+	-ms-user-select: none;
+	/* Internet Explorer/Edge */
+	user-select: none;
+	/* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+body>.grid {
+	height: 100%;
+}

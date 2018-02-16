@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:github" content="https://github.com/tokyojack">
+
+    <title>Tick Tack Toe!</title>
+    <meta name="description" content="A 9x9 Tick Tack Toe game!">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+    <link rel="stylesheet" href="/css/game.css">
+</head>
+
+
+
+<body>
+    
+
+
+
+    <div class="ui middle aligned center aligned grid">
+        <div class="column">
+    <div class="hidden">
+        <gameId><%= id %></gameId>
+        <turn><%= turn %></turn>
+    </div>
+            <h1 class="turn">Player X turn</h1>
+
+            <div class="content">
+                <table>
+
+                    <tr>
+                        <td id="0"></td>
+                        <td id="1" class="vertical"></td>
+                        <td id="2"></td>
+                    </tr>
+
+                    <tr>
+                        <td id="3" class="horizontal"></td>
+                        <td id="4" class="vertical horizontal"></td>
+                        <td id="5" class="horizontal"></td>
+                    </tr>
+
+                    <tr>
+                        <td id="6"></td>
+                        <td id="7" class="vertical"></td>
+                        <td id="8"></td>
+                    </tr>
+
+                    </tr>
+                </table>
+
+                <button class="ui green button hidden--button">Home</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.slim.js"></script>
+
+<script type="text/javascript" src="/js/game.js"></script>
+
+
+</html>

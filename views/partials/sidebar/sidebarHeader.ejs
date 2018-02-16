@@ -1,0 +1,31 @@
+   <ul id="slide-out" class="side-nav fixed">
+      <li>
+         <div class="user-view">
+            <div class="background">
+               <img src="/images/todos.jpg">
+            </div>
+            <a href="/home"><h1 class="title">Tick-tack-toe</h1></a>
+           <span  class="white-text name hidden">a</span>
+           <span class="white-text email">Logged in as: <%= user.username %></span>
+         </div>
+      </li>
+      
+
+<a href=""></a>
+      
+
+<!--Fix the stretch-->
+      <li ><div class="center-align"><button id="addButton" class="waves-effect waves-light btn">Find Game</button></div></li>
+            <li ><div class="left-align"><a id="logoutButton" href="/logout" class="waves-effect waves-light btn red"><i class="material-icons left">arrow_back</i>Logout</a></div></li>
+
+   </ul>
+   <a href="#" data-activates="slide-out" class="button-collapse"><i class="medium material-icons" id="menuIcon">menu</i></a>
+
+
+  
+<div class="hidden">
+    <userId><%= user.id %></userId>
+    <username><%= user.username %></username>
+</div>
+
+<main>
