@@ -16,6 +16,6 @@ After done install it, you'll have to sign-up. Login with the credentials you've
 
 Now, either open another tab of the website open and repeat above, or find a friend to-do it with. Get the other client to press *"FIND GAME"*, and the game will begin.
 
----
+##
 
 Now you've just install the program! High five! ```＼（＾○＾）人（＾○＾）／```!
