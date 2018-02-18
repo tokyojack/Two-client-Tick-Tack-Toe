@@ -1,6 +1,12 @@
 # Two-client-Tick-Tack-Toe
 A two-client tick-tack-toe made with Node.js and Socket.io
 
+<br/>
+
+<p align="center">
+  <img src="https://i.gyazo.com/e0f5483e2e1e8e5a385ae6d7faf82b2b.png"/>
+</p>
+
 ## Installing
 
 1. Clone this repo ```git clone https://github.com/tokyojack/Two-client-Tick-Tack-Toe```
