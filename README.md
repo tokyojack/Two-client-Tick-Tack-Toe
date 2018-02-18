@@ -1,10 +1,10 @@
-# Two-client-Tick-Tack-Toe
-A two-client tick-tack-toe made with Node.js and Socket.io
+<h2  align="center"> Two-client-Tick-Tack-Toe</h2>
+<p  align="center">A two-client tick-tack-toe made with Node.js and Socket.io</p>
 
 <br/>
 
 <p align="center">
-  <img src="https://i.gyazo.com/e0f5483e2e1e8e5a385ae6d7faf82b2b.png"/>
+  <img src="https://i.gyazo.com/e0f5483e2e1e8e5a385ae6d7faf82b2b.png" width="55%" height="55%"/>
 </p>
 
 ## Installing
