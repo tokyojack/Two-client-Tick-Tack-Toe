@@ -10,8 +10,6 @@ A two-client tick-tack-toe made with Node.js and Socket.io
 5. Launch the node server ```node index.js```
 6. Check out it within your browser.
 
----
-
 ## Usage
 
 After done install it, you'll have to sign-up. Login with the credentials you've signed up with, and then click *"IND GAME"* at the bottom right. 
