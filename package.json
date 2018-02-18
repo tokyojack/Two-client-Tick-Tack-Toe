@@ -1,17 +1,8 @@
 {
-  "name": "todoify",
+  "name": "two_client_tick_tack_toe",
   "version": "1.0.0",
-  "description": "You can create different todo-lists with different names/items",
+  "description": "A two-client tick-tack-toe made with Node.js and Socket.io",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "a"
-  },
-  "author": "Jack Clarke",
-  "license": "ISC",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.2",
@@ -30,5 +21,19 @@
     "passport-local": "^1.0.0",
     "require-sql": "^1.0.0",
     "socket.io": "^2.0.4"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tokyojack/Guess-Jacks-Picture.git"
+  },
+  "author": "Jack Clarke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tokyojack/Guess-Jacks-Picture/issues"
+  },
+  "homepage": "https://github.com/tokyojack/Guess-Jacks-Picture#readme"
 }
