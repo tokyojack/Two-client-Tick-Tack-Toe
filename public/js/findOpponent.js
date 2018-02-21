@@ -52,10 +52,17 @@ var UIController = (function() {
 
 var controller = (function(socketCtrl, UICtrl) {
 
+    var hasButtonBeenClicked = false;
+
     var setupEventListeners = function() {
         var DOM = UICtrl.getDOMstrings();
 
         document.querySelector(DOM.button).addEventListener('click', function(event) {
+
+            if (hasButtonBeenClicked)
+                return;
+
+            hasButtonBeenClicked = true;
             socketCtrl.findGame();
             UICtrl.addLoader();
         });
