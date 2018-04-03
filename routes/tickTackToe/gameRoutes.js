@@ -11,9 +11,8 @@ module.exports = function(matches, pool) {
         var id = parseInt(req.params.id);
 
         var match = matches.get(id);
-        var currentUserId = req.user.id;
 
-        var turn = match.user_1.id == currentUserId ? match.user_1.team : match.user_2.team;
+        var turn = match.user_1.id ==  req.user.id ? match.user_1.team : match.user_2.team;
 
         res.render("messenging/game.ejs", {
             id: id,

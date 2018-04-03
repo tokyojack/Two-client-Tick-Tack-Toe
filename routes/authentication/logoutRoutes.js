@@ -1,4 +1,5 @@
 var router = require("express").Router();
+
 var flashUtils = require('../../utils/flashUtils');
 
 // URL: "/logout"

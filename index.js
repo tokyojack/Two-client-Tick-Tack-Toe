@@ -50,8 +50,6 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-app.use(flash());
-
 app.use(function(req, res, next) {
     res.locals.error = req.flash("error");
     res.locals.success = req.flash("success");
@@ -66,7 +64,7 @@ app.use(function(req, res, next) {
 
 //============================= Values =============================
 
-// TODO change to Redis
+// Use Redis?
 
 var users = [];
 var gameId = 0;

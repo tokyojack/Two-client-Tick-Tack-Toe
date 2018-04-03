@@ -4,9 +4,9 @@ module.exports = function(users, gameId, matches, socket, io) {
         socket.join(user.userId);
         users.push(user);
 
-        if (users.length <= 1) {
+        if (users.length <= 1) 
             return;
-        }
+        
 
         gameId++;
 
