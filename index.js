@@ -32,15 +32,13 @@ require('./config/passport')(passport, pool);
 //============================= Letting express use them =============================
 
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static(__dirname + "/public"));
-app.use(flash());
-
-app.use(cookieParser()); // read cookies (needed for auth)
-app.use(bodyParser.urlencoded({
-    extended: true
-}));
 app.use(bodyParser.json());
 
+app.use(express.static(__dirname + "/public"));
+
+app.use(flash());
+
+app.use(cookieParser());
 app.use(session({
     secret: 'elphinestoneisinteresting',
     resave: true,
@@ -63,8 +61,6 @@ app.use(function(req, res, next) {
 });
 
 //============================= Values =============================
-
-// Use Redis?
 
 var users = [];
 var gameId = 0;
@@ -116,7 +112,6 @@ io.on('connection', function(socket) {
 
 //============================= Starting Server =============================
 
-// Make sure it's "http" instead of "app" for Socket.io
 http.listen(8080, function() {
     console.log("Server running".rainbow);
 });

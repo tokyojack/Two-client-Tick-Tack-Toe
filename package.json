@@ -28,12 +28,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tokyojack/Guess-Jacks-Picture.git"
+    "url": "git+https://github.com/tokyojack/Two-client-Tick-Tack-Toe.git"
   },
   "author": "Jack Clarke",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tokyojack/Guess-Jacks-Picture/issues"
+    "url": "https://github.com/tokyojack/Two-client-Tick-Tack-Toe/issues"
   },
-  "homepage": "https://github.com/tokyojack/Guess-Jacks-Picture#readme"
+  "homepage": "https://github.com/tokyojack/Two-client-Tick-Tack-Toe#readme"
 }

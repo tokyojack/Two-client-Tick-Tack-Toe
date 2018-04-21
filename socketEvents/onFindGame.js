@@ -8,8 +8,12 @@ module.exports = function(users, gameId, matches, socket, io) {
             return;
         
 
+        // You would most likely want to do a more intricate game-finding system, but this is fine for this level that
+        // i'm running it at   
+
         gameId++;
 
+        // Generates a new match info and inserts it into the HashMap
         var match = {
             gameId: gameId,
             user_1: {
@@ -25,7 +29,9 @@ module.exports = function(users, gameId, matches, socket, io) {
         };
 
         matches.set(gameId, match);
-        users.forEach(user => io.sockets.in(user.userId).emit('match_found', { gameId: gameId })); // Might want to change it to ES5
+
+        // Emit's that a match has been found, redirecting the person
+        users.forEach(user => io.sockets.in(user.userId).emit('match_found', { gameId: gameId })); 
 
         // users = []; This doesn't clear it
         users.length = 0;
