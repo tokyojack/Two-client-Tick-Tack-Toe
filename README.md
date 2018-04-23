@@ -1,5 +1,5 @@
 <h2  align="center">Two-client-Tick-Tack-Toe</h2>
-<p  align="center">A two-client tick-tack-toe made with Node.js and Socket.io</p>
+<p  align="center">A two-client tick-tack-toe game</p>
 
 <br/>
 
